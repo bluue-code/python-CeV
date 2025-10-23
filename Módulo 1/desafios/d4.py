@@ -1,0 +1,10 @@
+print("======== Desafio 004 =========")
+i = input("Digite algo: ")
+
+print("O seu tipo primitivo", type(i))
+print("{} é numérico? {}".format(i, i.isnumeric()))
+print("{} é uma string? {}".format(i, i.isalpha()))
+print("{} é alfanumérico? {}".format(i, i.isalnum()))
+print("{} é decimal? {}".format(i, i.isdecimal()))
+print("{} está em CAPSLOKE? {}".format(i, i.isupper()))
+print("{} está totalmente em minúsculo? {}".format(i, i.islower()))
