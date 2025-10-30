@@ -1,6 +1,11 @@
-print('<<< Desafio 005 >>>')
-print('Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.')
+print('<<< Desafio 004 >>>')
+n = input('Digite algo: ')
 
-num = int(input('Digite um número: '))
-
-print('O sucessor de {} é {} e o antecessor é {}'.format(num, num + 1, num - 1))
+print('O tipo primitivo de {} é {}'.format(n, type(n)))
+print('É númerico? {}'.format(n.isnumeric()))
+print('É alfabético? {}'.format(n.isalpha()))
+print('É alfanumérico? {}'.format(n.isalnum()))
+print('Esta escrito em letras maiúsculas? {}'.format(n.isupper()))
+print('Esta escrito em letras minúsculas? {}'.format(n.islower()))
+print('Esta capitalizado? {}'.format(n.istitle()))
+print('Tem somente espaços? {}'.format(n.isspace()))
