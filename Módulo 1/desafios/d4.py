@@ -1,10 +1,6 @@
-print("======== Desafio 004 =========")
-i = input("Digite algo: ")
+print('<<< Desafio 005 >>>')
+print('Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e seu antecessor.')
 
-print("O seu tipo primitivo", type(i))
-print("{} é numérico? {}".format(i, i.isnumeric()))
-print("{} é uma string? {}".format(i, i.isalpha()))
-print("{} é alfanumérico? {}".format(i, i.isalnum()))
-print("{} é decimal? {}".format(i, i.isdecimal()))
-print("{} está em CAPSLOKE? {}".format(i, i.isupper()))
-print("{} está totalmente em minúsculo? {}".format(i, i.islower()))
+num = int(input('Digite um número: '))
+
+print('O sucessor de {} é {} e o antecessor é {}'.format(num, num + 1, num - 1))
