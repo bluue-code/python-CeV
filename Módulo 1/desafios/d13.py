@@ -1,4 +1,4 @@
-print('<<< Digite um valor >>>')
+print('<<< EX013 >>>')
 print('Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.')
 
 sal = float(input('Seu salário atual: '))
